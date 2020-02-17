@@ -206,7 +206,10 @@ ul{
     .title-img{
         display: none;
     }
-    
+    .servfac{
+        flex-direction: column;
+    }
+
 
 }
 
@@ -226,12 +229,22 @@ ul{
         font-size: 5vw;
         text-align: center;
         justify-content: center;
-        
     }
+
+    .links a:nth-child(6){
+        border-bottom: 1px solid grey;
+    }
+
     .info-container1, .info-container2{
         flex-direction: column;
     }
     .middle-img{
         width: 500px;
     }
+
+    .container{
+        flex-direction: column;
+    }
+
+   
 }
